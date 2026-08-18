@@ -144,6 +144,32 @@ footer{text-align:center;padding:30px 16px 45px;color:#756b5c}
   .panel{padding:30px 16px}.n{font-size:42px}.l{font-size:8px}
   .cards{grid-template-columns:1fr}.intro-card{padding-top:52px}.intro-date{font-size:19px}
 }
+
+.invite-message{
+  width:min(880px,calc(100% - 34px));
+  margin:0 auto 28px;
+  text-align:center;
+  padding:24px 20px;
+  color:#5e543f;
+}
+.invite-message .script-line{
+  font-family:"Great Vibes",cursive;
+  font-size:clamp(34px,6vw,50px);
+  line-height:1.15;
+  color:var(--gold);
+  margin-bottom:8px;
+}
+.invite-message .serif-line{
+  font-size:clamp(18px,3vw,24px);
+  line-height:1.45;
+  letter-spacing:.025em;
+}
+.invite-message .mini-orn{
+  margin-top:14px;
+  color:var(--gold);
+  letter-spacing:.18em;
+}
+
 </style>
 </head>
 <body class="locked">
@@ -154,8 +180,8 @@ footer{text-align:center;padding:30px 16px 45px;color:#756b5c}
     <div class="intro-names">Mariam Khalil <span class="intro-and">&</span> Elopater Magdy</div>
     <div class="orn">— ♥ —</div>
     <div class="intro-date">5 SEPTEMBER 2026</div>
-    <button class="open-btn" id="openInvitation">♡ &nbsp; OPEN INVITATION</button>
-    <div class="tap-note">Music starts automatically</div>
+    <button class="open-btn" id="openInvitation">💍 &nbsp; OPEN INVITATION</button>
+    <div class="tap-note">A beautiful beginning deserves the people we love most.</div>
   </div>
 </div>
 
@@ -186,6 +212,12 @@ footer{text-align:center;padding:30px 16px 45px;color:#756b5c}
     <div class="date">5 September 2026</div>
     <div class="day">Saturday</div>
   </div>
+</section>
+
+<section class="invite-message" aria-label="Wedding invitation message">
+  <div class="script-line">With joyful hearts, we invite you to share in our happiness.</div>
+  <div class="serif-line">Come celebrate the beginning of our forever, surrounded by the people who mean the most to us.</div>
+  <div class="mini-orn">— ♥ —</div>
 </section>
 
 <section class="panel">
@@ -221,7 +253,10 @@ footer{text-align:center;padding:30px 16px 45px;color:#756b5c}
     </article>
   </div>
 
-  <div class="closing">Can't wait to celebrate with you! ♥</div>
+  <div class="closing">Your presence will make our celebration even more beautiful. ♥</div>
+  <div style="text-align:center;font-size:19px;line-height:1.5;margin:-6px 0 24px;color:#665d4e">
+    We would be honored to have you with us as we begin this new chapter together.
+  </div>
 
   <div class="rsvp">
     <h3>KINDLY RSVP</h3>

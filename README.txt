@@ -1,20 +1,19 @@
-MARIAM & ELOPATER — FINAL VERSION
+MARIAM & ELOPATER — VERSION 3
 
-UPLOAD THESE 3 FILES TO THE SAME GITHUB REPOSITORY ROOT:
+UPLOAD / REPLACE THESE FILES IN YOUR EXISTING GITHUB REPOSITORY:
 - index.html
 - childhood-enhanced.jpg
 - music.mp3
 
-Replace the old files with these ones, then Commit changes.
+Changes in this version:
+- Removed "Music starts automatically" text.
+- Added a warm invitation sentence on the opening screen.
+- Added two elegant invitation messages inside the website.
+- Added a ring icon next to OPEN INVITATION.
+- Music still tries to autoplay, and if the browser blocks it, it starts on the first interaction / OPEN INVITATION tap.
 
-MUSIC:
-The website tries to start music automatically when the page opens.
-Important: Chrome, Safari and many mobile browsers may block audible autoplay.
-If they block it, the music starts automatically on the first tap/click,
-including when the guest presses OPEN INVITATION. No separate music action is required.
-
-AFTER UPLOADING:
+After upload:
 1. Commit changes.
-2. Wait 1–5 minutes.
-3. Open the GitHub Pages URL.
-4. Press Ctrl+F5 on desktop, or refresh once on mobile.
+2. Wait a few minutes.
+3. Refresh the GitHub Pages site.
+4. Use Ctrl + F5 if you still see the old version.
