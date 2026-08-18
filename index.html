@@ -193,7 +193,7 @@ footer{text-align:center;padding:30px 16px 45px;color:#756b5c}
 </div>
 
 <audio id="music" autoplay loop preload="auto" playsinline>
-  <source src="samaouna-zaghroota-from-start.mp3?v=20260818-1708" type="audio/mpeg">
+  <source src="samaouna-zaghroota-original-full.mp3?v=20260818-1712-full" type="audio/mpeg">
 </audio>
 
 <main>
@@ -306,7 +306,30 @@ function pauseMusic(){
 /* Try to autoplay immediately.
    Browsers may block audible autoplay until the first user interaction. */
 window.addEventListener("DOMContentLoaded", async()=>{
+  music.currentTime = 0;
   await playMusic();
+});
+
+/* Retry autoplay as soon as the page itself becomes visible/active. */
+window.addEventListener("load", async()=>{
+  if(!playing){
+    music.currentTime = 0;
+    await playMusic();
+  }
+});
+
+window.addEventListener("pageshow", async()=>{
+  if(!playing){
+    music.currentTime = 0;
+    await playMusic();
+  }
+});
+
+document.addEventListener("visibilitychange", async()=>{
+  if(document.visibilityState === "visible" && !playing){
+    music.currentTime = 0;
+    await playMusic();
+  }
 });
 
 /* If autoplay was blocked, start automatically on the very first touch/click/key press. */
@@ -321,6 +344,7 @@ document.addEventListener("touchstart", unlockMusic, {passive:true});
 document.addEventListener("keydown", unlockMusic);
 
 openBtn.addEventListener("click",async()=>{
+  if(!playing) music.currentTime = 0;
   await playMusic();
   intro.classList.add("hidden");
   document.body.classList.remove("locked");
