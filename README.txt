@@ -1,19 +1,20 @@
-MARIAM & ELOPATER — VERSION 3
+MARIAM & ELOPATER — VERSION 5
 
-UPLOAD / REPLACE THESE FILES IN YOUR EXISTING GITHUB REPOSITORY:
+FILES TO UPLOAD / REPLACE IN YOUR GITHUB REPOSITORY:
 - index.html
 - childhood-enhanced.jpg
 - music.mp3
 
-Changes in this version:
-- Removed "Music starts automatically" text.
-- Added a warm invitation sentence on the opening screen.
-- Added two elegant invitation messages inside the website.
-- Added a ring icon next to OPEN INVITATION.
-- Music still tries to autoplay, and if the browser blocks it, it starts on the first interaction / OPEN INVITATION tap.
+WHAT CHANGED:
+- The OPEN INVITATION button already has a diamond ring icon: 💍
+- The opening note stays as a soft invitation sentence.
+- The website now uses a clipped section from the uploaded song:
+  "سمعونا زغروطة" (wedding-style energetic segment)
+- The music file was trimmed to a shorter lively section suitable for the invitation.
 
-After upload:
-1. Commit changes.
-2. Wait a few minutes.
-3. Refresh the GitHub Pages site.
-4. Use Ctrl + F5 if you still see the old version.
+AFTER UPLOAD:
+1. Upload/replace the 3 files above.
+2. Click Commit changes.
+3. Wait 1–5 minutes.
+4. Refresh the GitHub Pages link.
+5. If needed, hard refresh with Ctrl + F5.
