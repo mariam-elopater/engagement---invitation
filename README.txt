@@ -1,15 +1,17 @@
-VERSION 10
-Upload/replace these files in the repository root:
-- index.html
-- childhood-v10.jpg
-- wedding-sound-v10.mp3
-- mariam-flopater.ics
+VERSION 11
 
-Changes:
-- Removed father names.
-- FLOPATER above MARIAM.
-- Uses the new uploaded sound file.
-- Correct Maps links from the user.
-- Countdown + visual September 2026 calendar.
-- Add to Calendar button.
-- Richer botanical / gold / sparkle background.
+UPLOAD / REPLACE:
+- index.html
+- childhood-v11.jpg
+- wedding-song-from-song-start-v11.mp3
+- mariam-flopater.ics
+- preview-v11.jpg
+
+SOUND:
+The uploaded sound has about 8.74 seconds before the actual song begins.
+This version starts from the actual song entrance, not from the beginning of the sound file.
+
+LINK PREVIEW:
+https://mariam-elopater.github.io/engagement---invitation/
+
+preview-v11.jpg is connected through Open Graph tags so WhatsApp/Facebook can show a preview image from inside the invitation.
