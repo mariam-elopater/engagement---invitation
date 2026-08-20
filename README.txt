@@ -1,17 +1,24 @@
-VERSION 11
+FULL PACKAGE v12
 
-UPLOAD / REPLACE:
+Upload ALL these files to the ROOT of your GitHub repository:
 - index.html
 - childhood-v11.jpg
+- preview-v11.jpg
 - wedding-song-from-song-start-v11.mp3
 - mariam-flopater.ics
-- preview-v11.jpg
 
-SOUND:
-The uploaded sound has about 8.74 seconds before the actual song begins.
-This version starts from the actual song entrance, not from the beginning of the sound file.
-
-LINK PREVIEW:
+Current live URL expected:
 https://mariam-elopater.github.io/engagement---invitation/
 
-preview-v11.jpg is connected through Open Graph tags so WhatsApp/Facebook can show a preview image from inside the invitation.
+Latest changes:
+- FLOPATER above MARIAM
+- Father names removed
+- Arabic church and venue text
+- Church: كنيسة الأنبا بيشوي – الإسماعيلية
+- Time: الساعة 7:00 مساءً
+- Venue: فندق جولدن جويل – قاعة زمردة
+- Address note: آخر نمرة 6 – الإسماعيلية
+- Correct Google Maps buttons kept
+- Countdown + calendar
+- Link preview image included
+- Latest cleaned wedding sound included

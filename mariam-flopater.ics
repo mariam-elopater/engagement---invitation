@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Flopater & Mariam//Wedding Invitation//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:flopater-mariam-20260905@mariam-elopater.github.io
+DTSTAMP:20260820T112300Z
+DTSTART;TZID=Africa/Cairo:20260905T190000
+SUMMARY:Flopater & Mariam
+DESCRIPTION:الإكليل الساعة 7 مساءً، ثم الاحتفال في فندق جولدن جويل - قاعة زمردة.
+LOCATION:كنيسة الأنبا بيشوي - الإسماعيلية
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR
